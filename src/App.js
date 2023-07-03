@@ -1,11 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
+import Home from './component/Home/home';
+
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className='overAll'>
+      <Home/>
+    </div>
   );
 }
 
