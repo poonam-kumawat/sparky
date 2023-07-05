@@ -5,7 +5,7 @@ import './home.css';
 class Home extends Component {
   render() {
     return (
-      <div className='headerWrap fixed'>
+      <div className='headerWrap'>
         <div className='header'>
         <div className='header-content'>
             <img src="/assets/svg/logo.svg" alt='logo_img'/>
