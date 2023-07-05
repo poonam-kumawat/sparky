@@ -15,7 +15,7 @@ class Homepage extends Component {
         </div>
         </div>
         <div className='rightWrap'>
-          <img src="/assets/svg/styrda.svg"></img>
+          <img src="/assets/svg/styrda.svg" alt="img"></img>
         </div>
         
 
