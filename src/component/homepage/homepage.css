@@ -5,8 +5,9 @@
     /* height: 580px; */
 }
 .btnDownload{
-    clip-path: polygon(90% 0, 100% 34%, 100% 100%, 10% 100%, 0 66%, 0 0);
+    /* clip-path: polygon(90% 0, 100% 34%, 100% 100%, 10% 100%, 0 66%, 0 0); */
     text-transform: uppercase;
     transition: all .3s ease;
-    background:#14c2a3;
+    /* background:#14c2a3; */
+    border: 3px solid #14c2a3;
 }

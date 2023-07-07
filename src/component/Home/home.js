@@ -21,7 +21,7 @@ const Home =()=> {
         <div className={`nav-menu  ${showNavbar && 'active'}`}>
             <ul className='content-menu'>
             <div className="Mobmenu-icon" onClick={handleShowNavbar}>          
-            <img src="/assets/svg/close.svg" alt='close' className='w-10 float-right mt-5'/>          
+            <img src="/assets/svg/close.svg" alt='close' className='w-10 float-right mt-4 mr-5'/>          
         </div>
               <li>
                 <a href='/'>HOME.</a>
@@ -38,9 +38,9 @@ const Home =()=> {
         </div>
               </li>
               <li>
-              {/* <div className="Mob-img">          
-            <img src="/assets/svg/navImage.svg" alt='close' className=''/>          
-        </div> */}
+              <div className="Mob-img">          
+            <img src="/assets/svg/mobMenuImage.svg" alt='close' className='absolute bottom-0 left-40'/>          
+        </div>
               </li>
             </ul>
 
