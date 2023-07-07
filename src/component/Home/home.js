@@ -37,6 +37,11 @@ const Home =()=> {
             <button className='text-white font-bold py-2 px-12 align-middle inline-flex  btnlogin'>Login</button>
         </div>
               </li>
+              <li>
+              {/* <div className="Mob-img">          
+            <img src="/assets/svg/navImage.svg" alt='close' className=''/>          
+        </div> */}
+              </li>
             </ul>
 
         </div>
