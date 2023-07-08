@@ -55,9 +55,15 @@
 .btnlogin{
     clip-path: polygon(90% 0, 100% 34%, 100% 100%, 10% 100%, 0 66%, 0 0);
     text-transform: uppercase;
-    transition: all .3s ease;
+    /* transition: all .3s ease; */
     background:#14c2a3;
 }
+.btnlogin:hover{
+    background: transparent;
+    border: 1px solid #fff;
+    /* transform: scale(.97) rotate(-1deg); */
+}
+
 
 
 

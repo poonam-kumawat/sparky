@@ -39,7 +39,7 @@ const Home =()=> {
               </li>
               <li>
               <div className="Mob-img">          
-            <img src="/assets/svg/mobMenuImage.svg" alt='close' className='absolute bottom-0 left-40'/>          
+            <img src="/assets/svg/mobMenuImage.svg" alt='close' className='absolute bottom-0 left-10'/>          
         </div>
               </li>
             </ul>

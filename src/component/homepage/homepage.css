@@ -10,4 +10,10 @@
     transition: all .3s ease;
     /* background:#14c2a3; */
     border: 3px solid #14c2a3;
+    position: relative;
+}
+
+.btnDownload:hover{
+    border: 3px solid #fff;
+    transition-duration: .3s;
 }
