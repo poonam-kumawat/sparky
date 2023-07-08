@@ -1,14 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 import './homepage.css';
  
 const Homepage =()=>{
+  useEffect(()=>{
+    Aos.init({duration:1000});
+  })
   
     return (
       <div className='Home'>
       <div className='content-home'>
            <div className='container md:grid grid-cols-2 md:mx-5'>
-           <div className='leftWrap pt-20 pb-20'>
+           <div className='leftWrap pt-20 pb-20' data-aos="fade-right">
       <h1 className='text-white md:pt-10 md:text-left  text-5xl md:text-6xl'>Sparky:The Ultimate Game </h1>
       <h1 className='text-white pt-10 text-left text-xl'>Immerse yourself in thrilling team-based battles with Sparky game. Choose unique heroes, strategize with teammates, and dominate the lanes to claim victory. 
 </h1>
@@ -30,7 +35,7 @@ const Homepage =()=>{
             <div className='left-aboutUS'>
             
             </div>
-            <div className='rightiaboutUs'>
+            <div className='rightiaboutUs' data-aos="zoom-in" data-aos-easing="ease-in-out">
             <p className='pt-1 text-[#14c2a3] text-xl'>About Us</p>
             <p className='text-white text-5xl'>What is Sparky</p>
             <p className='text-[#828282] text-2xl'>Embark on an epic journey into the realm of our groundbreaking Sparky game, where intense battles, strategic gameplay, and unforgettable moments await you!</p>
