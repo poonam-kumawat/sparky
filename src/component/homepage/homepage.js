@@ -40,7 +40,7 @@ const Homepage = () => {
               </button>
             </div>
           </div>
-          <div className="rightWrap hidden md:block">
+          <div className="rightWrap hidden lg:block absolute right-0 pt-16">
             <img src="/assets/svg/styrda.svg" alt="img"></img>
           </div>
         </div>
