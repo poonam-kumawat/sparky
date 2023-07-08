@@ -1,13 +1,25 @@
 import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
+import lottie from "lottie-web";
+import play from '../../assests/json/play.json'
+
+
 
 import './homepage.css';
  
 const Homepage =()=>{
   useEffect(()=>{
     Aos.init({duration:1000});
+    lottie.loadAnimation({
+      container: document.querySelector("#video_link"),
+      animationData: play,
+      renderer: "svg",
+      loop: true, 
+      autoplay: true,
+    });
   })
+ 
   
     return (
       <div className='Home'>
@@ -21,7 +33,7 @@ const Homepage =()=>{
             <button className='text-white text-2xl font-bold py-3 px-12  inline-flex btnDownload'>Download</button>
         </div>
         </div>
-        <div className='rightWrap hidden md:block'>
+        <div className='rightWrap hidden lg:block absolute right-0 pt-14'>
           <img src="/assets/svg/styrda.svg" alt="img"></img>
         </div>
         
@@ -63,7 +75,7 @@ const Homepage =()=>{
         <div className='container pt-10 pb-10'>
         <div className='video'>
         <img src='/assets/svg/giphy.svg' alt='arrow' className='zooming p-2 border-solid border-1 rounded border-white'></img>
-        {/* <a href='/' className='video_link'><img src='/assets/svg/play.svg' alt='arrow'></img></a> */}
+        {/* <a href='/' id='video_link'></a> */}
         </div>
           
            
