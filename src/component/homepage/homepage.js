@@ -39,6 +39,32 @@ const Homepage =()=>{
           </div>
         </div>
       </div>
+      <div className='section_3'>
+        <div className='container pt-10 pb-10'>
+          <div className='md:grid grid-cols-2'>
+            <div className='left-aboutUS'>
+            <p className='pt-1 text-[#14c2a3] text-xl'>About Us</p>
+            <p className='text-white text-5xl'>What is Sparky</p>
+            <p className='text-[#828282] text-2xl'>Embark on an epic journey into the realm of our groundbreaking Sparky game, where intense battles, strategic gameplay, and unforgettable moments await you!</p>
+            <img src='/assets/svg/arrow.svg' alt='arrow'></img>
+            </div>
+            <div className='rightiaboutUs'>
+            <img src='/assets/svg/styrda2.svg' alt='arrow'></img>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className='section_4'>
+        <div className='container pt-10 pb-10'>
+        <div className='video'>
+        <img src='/assets/svg/giphy.svg' alt='arrow' className='zooming p-2 border-solid border-1 rounded border-white'></img>
+        {/* <a href='/' className='video_link'><img src='/assets/svg/play.svg' alt='arrow'></img></a> */}
+        </div>
+          
+           
+          
+        </div>
+      </div>
       </div>
     
     );
