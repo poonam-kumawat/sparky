@@ -8,6 +8,7 @@ import "./homepage.css";
 import arrow from "./../../assets/svg/arrow.svg";
 import styrda2 from "./../../assets/svg/styrda2.svg";
 import giphy from "./../../assets/svg/giphy.svg";
+import doubleAroww from "./../../assets/svg/doubleArrow.svg";
 
 const Homepage = () => {
   
@@ -24,15 +25,9 @@ const Homepage = () => {
 
   return (
     <div className="Home">
-    {/* <div class="wrap">
-    <div class="loader"></div>
-    <div class="loaderbefore"></div>
-    <div class="circular"></div>
-     <div class="circular another"></div>  
-     </div> */}
-      <div className="content-home">
-        <div className="container md:grid grid-cols-2 md:mx-5">
-          <div className="leftWrap pt-20 pb-20" data-aos="fade-right">
+          <div className="content-home">
+        <div className="container lg:grid grid-cols-2 lg:mx-5">
+          <div className="leftWrap pt-20 pb-18" data-aos="fade-right">
             <h1 className="text-white md:pt-10 md:text-left  text-5xl md:text-6xl">
               Sparky:The Ultimate Game{" "}
             </h1>
@@ -104,6 +99,16 @@ const Homepage = () => {
           </div>
         </div>
       </div>
+      <div className="section_5">
+        <div className="container pt-10 pb-10">
+          <div className="teamMembers">
+          <p className="text-center text-white text-6xl">Active Team Members</p>
+          <img src={doubleAroww} alt="arrow" className="m-auto h-5"></img>
+            
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 };

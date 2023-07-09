@@ -4,6 +4,7 @@ import Home from "./component/Home/home";
 import Loading from "./component/Loader/loading";
 import Homepage from "./component/homepage/homepage";
 import React, {useEffect, useState } from "react";
+import DotRing from "./component/mousecursor/dotRing";
 
 function App() {
   const [loading,setLoading]=useState(true);
@@ -16,7 +17,7 @@ function App() {
   });
   return (
     <div className="overAll">
-{loading ? <Loading/> : <div><Home />
+{loading ? <Loading/> : <div><DotRing /><Home />
       <Homepage /></div>}
       
     </div>
