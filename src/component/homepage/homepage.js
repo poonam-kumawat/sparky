@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect} from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import lottie from "lottie-web";
@@ -10,6 +10,7 @@ import styrda2 from "./../../assets/svg/styrda2.svg";
 import giphy from "./../../assets/svg/giphy.svg";
 
 const Homepage = () => {
+  
   useEffect(() => {
     Aos.init({ duration: 1000 });
     lottie.loadAnimation({
@@ -23,6 +24,12 @@ const Homepage = () => {
 
   return (
     <div className="Home">
+    {/* <div class="wrap">
+    <div class="loader"></div>
+    <div class="loaderbefore"></div>
+    <div class="circular"></div>
+     <div class="circular another"></div>  
+     </div> */}
       <div className="content-home">
         <div className="container md:grid grid-cols-2 md:mx-5">
           <div className="leftWrap pt-20 pb-20" data-aos="fade-right">
