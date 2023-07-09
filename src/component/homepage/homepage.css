@@ -28,19 +28,41 @@
     animation: both;
     -webkit-animation: zoom 10s ease 0s infinite normal both;
 }
-/* .video_link{
-    border-radius: 50%;
-    color: #fff;
-    font-size: 25px;
-    height: 60px;
-    left: 50%;
-    line-height: 60px;
-    overflow: hidden;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    -webkit-transform: translate(-50%,-50%) scale(1);
-    transform: translate(-50%,-50%) scale(1);
-    transition: all .4s ease 0s;
-    width: 60px;
-} */
+.memberImg{
+  
+  margin-bottom: 40px;
+  
+  text-align: center;
+  
+  padding: 0px 20px;
+}
+.memberImg a > img {
+  border: 2px solid #282931;
+  border-radius: 50%;
+  transition: .3s linear;
+  display: inline-block;
+  position: relative;
+  /* width: 100px; */
+}
+
+.memberImg a::before {
+  content: "\f0c1";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  font-size: 40px;
+  opacity: 0;
+  color: #14c2a3;
+  transition: .3s linear;
+
+}
+
+.memberImg a > img:hover{
+  border-radius: 50%;
+  border: 2px solid #14c2a3;
+  color: #14c2a3;
+    text-decoration: none;
+}

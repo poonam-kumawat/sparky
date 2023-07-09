@@ -9,6 +9,12 @@ import arrow from "./../../assets/svg/arrow.svg";
 import styrda2 from "./../../assets/svg/styrda2.svg";
 import giphy from "./../../assets/svg/giphy.svg";
 import doubleAroww from "./../../assets/svg/doubleArrow.svg";
+import member1 from "./../../assets/svg/teamplayer/member1.svg";
+import member2 from "./../../assets/svg/teamplayer/member2.svg";
+import member3 from "./../../assets/svg/teamplayer/member3.svg";
+import member4 from "./../../assets/svg/teamplayer/member4.svg";
+import member5 from "./../../assets/svg/teamplayer/member5.svg";
+import member6 from "./../../assets/svg/teamplayer/member6.svg";
 
 const Homepage = () => {
   
@@ -57,8 +63,8 @@ const Homepage = () => {
               data-aos-easing="ease-in-out"
             >
               <p className="pt-1 text-[#14c2a3] text-xl">About Us</p>
-              <p className="text-white text-5xl">What is Sparky</p>
-              <p className="text-[#828282] text-2xl">
+              <p className="text-white  text-3xl md:text-5xl">What is Sparky</p>
+              <p className="text-[#828282]  text-xl md:text-2xl">
                 Embark on an epic journey into the realm of our groundbreaking
                 Sparky game, where intense battles, strategic gameplay, and
                 unforgettable moments await you!
@@ -73,8 +79,8 @@ const Homepage = () => {
           <div className="md:grid grid-cols-2">
             <div className="left-aboutUS">
               <p className="pt-1 text-[#14c2a3] text-xl">About Us</p>
-              <p className="text-white text-5xl">What is Sparky</p>
-              <p className="text-[#828282] text-2xl">
+              <p className="text-white text-3xl md:text-5xl">What is Sparky</p>
+              <p className="text-[#828282] text-xl md:text-2xl">
                 Embark on an epic journey into the realm of our groundbreaking
                 Sparky game, where intense battles, strategic gameplay, and
                 unforgettable moments await you!
@@ -101,9 +107,60 @@ const Homepage = () => {
       </div>
       <div className="section_5">
         <div className="container pt-10 pb-10">
-          <div className="teamMembers">
-          <p className="text-center text-white text-6xl">Active Team Members</p>
-          <img src={doubleAroww} alt="arrow" className="m-auto h-5"></img>
+          <div className="teamMembers"  data-aos="zoom-in" data-aos-easing="ease-in-out">
+          <p className="text-center text-white text-3xl md:text-6xl">Active Team Members</p>
+          <img src={doubleAroww} alt="arrow" className="m-auto md:h-5 h-2"></img>
+          <div className="members">
+          <div className="grid grid-cols-3 lg:grid lg:grid-cols-6 mt-4">
+          <div className="memberImg">
+          <a href="/"><img src={member1} alt="img"></img></a>
+           
+            </div>
+            <div className="memberImg">
+            <a href="/"><img src={member2} alt="img"></img></a>
+      
+            </div>
+            <div className="memberImg">
+            <a href="/"><img src={member3} alt="img"></img></a>
+      
+            </div>
+            <div className="memberImg">
+            <a href="/"><img src={member4} alt="img"></img></a>
+      
+            </div>
+            <div className="memberImg">
+            <a href="/"><img src={member5} alt="img"></img></a>
+      
+            </div>
+            <div className="memberImg">
+            <a href="/"><img src={member6} alt="img"></img></a>
+      
+            </div>
+            </div>
+            <div className="grid grid-cols-3 lg:grid lg:grid-cols-6">
+          <div className="memberImg">
+          <a href="/"><img src={member1} alt="img"></img></a>
+           
+            </div>
+            <div className="memberImg">
+            <a href="/"><img src={member2} alt="img"></img></a>
+      
+            </div>
+            <div className="memberImg">
+            <a href="/"><img src={member3} alt="img"></img></a>
+      
+            </div>
+            <div className="memberImg">
+            <a href="/"><img src={member4} alt="img"></img></a>
+      
+            </div>
+            <div className="memberImg">
+            <a href="/"><img src={member5} alt="img"></img></a>
+      
+            </div>
+            
+            </div>
+          </div>
             
           </div>
         </div>
