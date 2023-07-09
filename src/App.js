@@ -8,7 +8,7 @@ import React, {useEffect, useState } from "react";
 function App() {
   const [loading,setLoading]=useState(true);
   const sparkLoader=async()=>{
-    await  setTimeout(()=> setLoading(false),2000)
+    await  setTimeout(()=> setLoading(false),100000)
    };
   useEffect(()=>{
     sparkLoader();
