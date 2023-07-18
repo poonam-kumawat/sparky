@@ -28,9 +28,9 @@ body *{
   width: 8px;
   background-color: #15171c;
 }
-* {
+/* * {
   cursor: none;
-}
+} */
 
 @tailwind base;
 @tailwind components;

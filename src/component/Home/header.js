@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./home.css";
+import { Outlet, Link } from "react-router-dom";
 
 //svgs
 import logo from "./../../assets/svg/logo.svg";
@@ -7,7 +8,7 @@ import hamburger from "./../../assets/svg/hamburger.svg";
 import close from "./../../assets/svg/close.svg";
 import mobMenuImage from "./../../assets/svg/mobMenuImage.svg";
 
-const Home = () => {
+const Header = () => {
   const [showNavbar, setShowNavbar] = useState(false);
 
   const handleShowNavbar = () => {
@@ -33,13 +34,13 @@ const Home = () => {
                 />
               </div>
               <li>
-                <a href="/">HOME.</a>
+              <Link to="/">HOME.</Link>
               </li>
               <li>
-                <a href="/">ABOUT US.</a>
+              <Link to="/contact">ABOUT US.</Link>
               </li>
               <li>
-                <a href="/">CONTACT.</a>
+              <Link to="/contact">CONTACT.</Link>
               </li>
               <li>
                 <div className="content-btn">
@@ -60,9 +61,11 @@ const Home = () => {
             </ul>
           </div>
         </nav>
+        <Outlet />
       </div>
+      
     </div>
   );
 };
 
-export default Home;
+export default Header;
