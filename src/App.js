@@ -1,12 +1,12 @@
 // import logo from './logo.svg';
 import "./App.css";
-import Home from "./component/Home/header";
+// import Home from "./component/Home/header";
 import Loading from "./component/Loader/loading";
 import Homepage from "./component/homepage/homepage";
 import React, {useEffect, useState } from "react";
-import DotRing from "./component/mousecursor/dotRing";
+// import DotRing from "./component/mousecursor/dotRing";
 import Footer from "./component/Footer/footer";
-import ReactDOM from "react-dom/client";
+// import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Contact from "./component/contact/contact";
 import Header from "./component/Home/header";
