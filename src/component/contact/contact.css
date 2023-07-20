@@ -1,0 +1,66 @@
+.contactBg{
+    background-image: url('../../../src/assets/svg/contactBg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 1070px;
+    position: relative;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 32px 0 rgba(34,183,143,.5);
+}
+.contactWrap{
+    border: 2px solid #14c2a3;
+    height: 1010px;
+    width: auto;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0 0 32px 0 rgba(34,183,143,.5);
+}
+.info{
+    border: 2px solid #14c2a3;
+    height: 160px;
+    max-width: 600px;
+    margin: 45px 30px;
+    border-radius: 25px;
+}
+.Contactform{
+    border: 2px solid #14c2a3;
+    height: 450px;
+    background-color: rgba(15, 16, 16, 0.76);
+    max-width: 600px;
+    margin: 45px 30px;
+    border-radius: 25px;
+}
+::placeholder{
+    color: #ffffff !important;
+}
+.contactImg img{
+    float: right;
+    
+    bottom: 0;
+    
+    right: -30px;
+    position: absolute;
+}
+
+input[type=text],textarea{
+    background: rgb(0,38,44);
+    border: 1px solid hsla(0,0%,100%,.2);
+    border-radius: 0;
+    box-shadow: none;
+    color: #565660;
+    font-size: 17px;
+    height: 50px;
+    line-height: 28px;
+    outline: 0;
+    padding: 13px 15px 13px 27px;
+    width: 80%;
+    margin: 10px 20px;
+}
+.textMessage{
+    font-size: 15px;
+    height: 110px;
+    line-height: 1.73;
+    padding: 20px 15px 13px 18px;
+    margin: 10px 20px;
+}
