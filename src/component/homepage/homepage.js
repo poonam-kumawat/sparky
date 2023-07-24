@@ -12,6 +12,9 @@ import "./homepage.css";
 import live from "./../../assets/svg/liveStream.svg";
 import gameNews from "./../../assets/svg/gameNews.svg";
 import tour from "./../../assets/svg/Tournament.svg";
+import drawer from "./../../assets/svg/drawer_svgrepo.com.svg";
+import vector from "./../../assets/svg/Vector.svg";
+import fire from "./../../assets/svg/fire-2_svgrepo.com.svg";
 
 
 
@@ -86,6 +89,28 @@ const Homepage = () => {
       </div>
       <div className="section_3">
         <div className="container pt-10 pb-10">
+        <div className="works">
+        <h1 className="text-[#14c2a3] text-4xl ">HOW IT WORKS </h1>
+        <h5 className="text-white text-3xl py-3">How To Participate</h5>
+        <div className="md:grid md:grid-cols-3 ">
+          <div className="drawer m-2">
+          <img src={drawer} alt="img" className="w-10 py-3"></img>
+          <p className="text-3xl text-white">Submit KYC</p>
+          <p className="text-1xl text-[#BECCC9]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div className="drawer m-2">
+          <img src={vector} alt="img" className="w-10 py-3"></img>
+          <p className="text-3xl text-white">Verify Wallet</p>
+          <p className="text-1xl text-[#BECCC9]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div className="drawer m-2">
+          <img src={fire} alt="img" className="w-10 py-3"></img>
+          <p className="text-3xl text-white">Start Staking</p>
+          <p className="text-1xl text-[#BECCC9]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+
+        </div>
           
         </div>
       </div>
