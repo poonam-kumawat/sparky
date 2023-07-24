@@ -5,16 +5,15 @@ import lottie from "lottie-web";
 import play from "../../assests/json/play.json";
 
 import "./homepage.css";
-import arrow from "./../../assets/svg/arrow.svg";
-import styrda2 from "./../../assets/svg/styrda2.svg";
-import giphy from "./../../assets/svg/giphy.svg";
-import doubleAroww from "./../../assets/svg/doubleArrow.svg";
-import member1 from "./../../assets/svg/teamplayer/member1.svg";
-import member2 from "./../../assets/svg/teamplayer/member2.svg";
-import member3 from "./../../assets/svg/teamplayer/member3.svg";
-import member4 from "./../../assets/svg/teamplayer/member4.svg";
-import member5 from "./../../assets/svg/teamplayer/member5.svg";
-import member6 from "./../../assets/svg/teamplayer/member6.svg";
+// import arrow from "./../../assets/svg/arrow.svg";
+// import styrda2 from "./../../assets/svg/styrda2.svg";
+// import giphy from "./../../assets/svg/giphy.svg";
+// import doubleAroww from "./../../assets/svg/doubleArrow.svg";
+import live from "./../../assets/svg/liveStream.svg";
+import gameNews from "./../../assets/svg/gameNews.svg";
+import tour from "./../../assets/svg/Tournament.svg";
+
+
 
 const Homepage = () => {
   
@@ -55,114 +54,49 @@ const Homepage = () => {
       </div>
       <div className="aboutus">
         <div className="container pt-10 pb-10">
-          <div className="md:grid grid-cols-2">
-            <div className="left-aboutUS"></div>
-            <div
-              className="rightiaboutUs"
-              data-aos="zoom-in"
-              data-aos-easing="ease-in-out"
-            >
-              <p className="pt-1 text-[#14c2a3] text-xl">About Us</p>
-              <p className="text-white  text-3xl md:text-5xl">What is Sparky</p>
-              <p className="text-[#828282]  text-xl md:text-2xl">
-                Embark on an epic journey into the realm of our groundbreaking
-                Sparky game, where intense battles, strategic gameplay, and
-                unforgettable moments await you!
-              </p>
-              <img src={arrow} alt="arrow"></img>
+        <h1 className=" text-3xl md:text-6xl text-[#14C2A3] text-center md:pt-5 md:px-12">YOU ARE MOST WELCOME IN GAMING WORLD.</h1>
+          <div className="md:grid md:grid-cols-3 md:pt-5">
+            <div className="gameIntro p-8 mx-3 my-3 md:my-0  ">
+              <div className="liveImg">
+              <img src={live} alt="img" className="liveStreamImg"></img>
+              </div>
+              <h5 className="text-3xl text-white text-center pb-3 pt-3 border-b-2 border-[#14C2A3]">LIVE STREAMING</h5>
+              <p className="text-1xl text-center text-[#BECCC9]">When unknown printer took type and scrambled it to make type specimen book centuries,</p>
             </div>
+            <div className="gameIntro p-8 mx-3 my-3 md:my-0 ">
+              <div className="liveImg">
+              <img src={gameNews} alt="img" className="liveStreamImg"></img>
+              </div>
+              <h5 className="text-3xl text-white text-center pb-3 pt-3 border-b-2 border-[#14C2A3]">GAME NEWS</h5>
+              <p className="text-1xl text-center text-[#BECCC9]">When unknown printer took type and scrambled it to make type specimen book centuries,</p>
+            </div>
+            <div className="gameIntro p-8 mx-3 my-3 md:my-0 ">
+              <div className="liveImg">
+              <img src={tour} alt="img" className="liveStreamImg"></img>
+              </div>
+              <h5 className="text-3xl text-white text-center pb-3 pt-3 border-b-2 border-[#14C2A3]">GAME TOURNAMENTS</h5>
+              <p className="text-1xl text-center text-[#BECCC9]">When unknown printer took type and scrambled it to make type specimen book centuries,</p>
+            </div>
+            
           </div>
+            
+             
+                   
         </div>
       </div>
       <div className="section_3">
         <div className="container pt-10 pb-10">
-          <div className="md:grid grid-cols-2">
-            <div className="left-aboutUS">
-              <p className="pt-1 text-[#14c2a3] text-xl">About Us</p>
-              <p className="text-white text-3xl md:text-5xl">What is Sparky</p>
-              <p className="text-[#828282] text-xl md:text-2xl">
-                Embark on an epic journey into the realm of our groundbreaking
-                Sparky game, where intense battles, strategic gameplay, and
-                unforgettable moments await you!
-              </p>
-              <img src={arrow} alt="arrow"></img>
-            </div>
-            <div className="rightiaboutUs">
-              <img src={styrda2} alt="arrow"></img>
-            </div>
-          </div>
+          
         </div>
       </div>
       <div className="section_4">
         <div className="container pt-10 pb-10">
-          <div className="video">
-            <img
-              src={giphy}
-              alt="arrow"
-              className="zooming p-2 border-solid border-1 rounded border-white"
-            ></img>
-            {/* <a href='/' className='video_link'><img src='/assets/svg/play.svg' alt='arrow'></img></a> */}
-          </div>
+          
         </div>
       </div>
       <div className="section_5">
         <div className="container pt-10 pb-10">
-          <div className="teamMembers"  data-aos="zoom-in" data-aos-easing="ease-in-out">
-          <p className="text-center text-white text-3xl md:text-6xl">Active Team Members</p>
-          <img src={doubleAroww} alt="arrow" className="m-auto md:h-5 h-2"></img>
-          <div className="members">
-          <div className="grid grid-cols-3 lg:grid lg:grid-cols-6 mt-4">
-          <div className="memberImg">
-          <a href="/"><img src={member1} alt="img"></img></a>
-           
-            </div>
-            <div className="memberImg">
-            <a href="/"><img src={member2} alt="img"></img></a>
-      
-            </div>
-            <div className="memberImg">
-            <a href="/"><img src={member3} alt="img"></img></a>
-      
-            </div>
-            <div className="memberImg">
-            <a href="/"><img src={member4} alt="img"></img></a>
-      
-            </div>
-            <div className="memberImg">
-            <a href="/"><img src={member5} alt="img"></img></a>
-      
-            </div>
-            <div className="memberImg">
-            <a href="/"><img src={member6} alt="img"></img></a>
-      
-            </div>
-            </div>
-            <div className="grid grid-cols-3 lg:grid lg:grid-cols-6">
-          <div className="memberImg">
-          <a href="/"><img src={member1} alt="img"></img></a>
-           
-            </div>
-            <div className="memberImg">
-            <a href="/"><img src={member2} alt="img"></img></a>
-      
-            </div>
-            <div className="memberImg">
-            <a href="/"><img src={member3} alt="img"></img></a>
-      
-            </div>
-            <div className="memberImg">
-            <a href="/"><img src={member4} alt="img"></img></a>
-      
-            </div>
-            <div className="memberImg">
-            <a href="/"><img src={member5} alt="img"></img></a>
-      
-            </div>
-            
-            </div>
-          </div>
-            
-          </div>
+          
         </div>
       </div>
 
