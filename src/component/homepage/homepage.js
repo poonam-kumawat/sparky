@@ -6,7 +6,7 @@ import play from "../../assests/json/play.json";
 
 import "./homepage.css";
 // import arrow from "./../../assets/svg/arrow.svg";
-// import styrda2 from "./../../assets/svg/styrda2.svg";
+import styrda2 from "./../../assets/svg/styrda2.svg";
 // import giphy from "./../../assets/svg/giphy.svg";
 // import doubleAroww from "./../../assets/svg/doubleArrow.svg";
 import live from "./../../assets/svg/liveStream.svg";
@@ -121,6 +121,19 @@ const Homepage = () => {
       </div>
       <div className="section_5">
         <div className="container pt-10 pb-10">
+        <div className="enroll">
+        <div className="md:grid md:grid-cols-2">
+          <div className="enrollText">
+            <p className="text-white text-6xl">IMPROVE YOUR SKILL NOW!</p>
+            <p className="text-white text-2xl">Enjoy Your Gaming Experience More</p>
+            <button className="join">Join Now</button>
+          </div>
+          <div className="enrollImg">
+            <img src={styrda2} alt="img"></img>
+          </div>
+        </div>
+
+        </div>
           
         </div>
       </div>

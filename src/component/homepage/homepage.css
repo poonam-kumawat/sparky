@@ -92,3 +92,21 @@
   background: linear-gradient(173deg, rgba(17, 40, 61, 0.95) 20.31%, rgba(17, 40, 61, 0.00) 99.14%);
   padding: 50px 30px;
 }
+.enroll{
+  background-color: #24AC94;
+  border-radius: 30px;
+  /* padding: 50px 30px; */
+
+}
+.enrollText{
+  padding: 50px 30px;
+  margin: auto;
+}
+.join{
+  background-color: #174A67;
+  color: white;
+  border:2px solid white;
+  padding: 10px 40px;
+  font-size: 20px;
+  margin-top: 20px;
+}
