@@ -57,8 +57,8 @@ const Homepage = () => {
       </div>
       <div className="aboutus">
         <div className="container pt-10 pb-10">
-        <h1 className=" text-3xl md:text-6xl text-[#14C2A3] text-center md:pt-5 md:px-12">YOU ARE MOST WELCOME IN GAMING WORLD.</h1>
-          <div className="md:grid md:grid-cols-3 md:pt-5">
+        <h1  data-aos="fade-up" className=" text-3xl md:text-6xl text-[#14C2A3] text-center md:pt-5 md:px-12">YOU ARE MOST WELCOME IN GAMING WORLD.</h1>
+          <div className="md:grid md:grid-cols-3 md:pt-5" data-aos="zoom-in">
             <div className="gameIntro p-8 mx-3 my-3 md:my-0  ">
               <div className="liveImg">
               <img src={live} alt="img" className="liveStreamImg"></img>
@@ -89,21 +89,21 @@ const Homepage = () => {
       </div>
       <div className="section_3">
         <div className="container pt-10 pb-10">
-        <div className="works">
-        <h1 className="text-[#14c2a3] text-4xl ">HOW IT WORKS </h1>
-        <h5 className="text-white text-3xl py-3">How To Participate</h5>
+        <div className="works"  data-aos="zoom-in">
+        <h1 className="text-[#14c2a3] text-4xl " data-aos="fade-up">HOW IT WORKS </h1>
+        <h5 className="text-white text-3xl py-3" data-aos="fade-up">How To Participate</h5>
         <div className="md:grid md:grid-cols-3 ">
-          <div className="drawer m-2">
+          <div className="drawer m-2" data-aos="fade-up">
           <img src={drawer} alt="img" className="w-10 py-3"></img>
           <p className="text-3xl text-white">Submit KYC</p>
           <p className="text-1xl text-[#BECCC9]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
-          <div className="drawer m-2">
+          <div className="drawer m-2" data-aos="fade-up">
           <img src={vector} alt="img" className="w-10 py-3"></img>
           <p className="text-3xl text-white">Verify Wallet</p>
           <p className="text-1xl text-[#BECCC9]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
-          <div className="drawer m-2">
+          <div className="drawer m-2" data-aos="fade-up">
           <img src={fire} alt="img" className="w-10 py-3"></img>
           <p className="text-3xl text-white">Start Staking</p>
           <p className="text-1xl text-[#BECCC9]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -121,14 +121,14 @@ const Homepage = () => {
       </div>
       <div className="section_5">
         <div className="container pt-10 pb-10">
-        <div className="enroll">
+        <div className="enroll" data-aos="fade-up">
         <div className="md:grid md:grid-cols-2">
-          <div className="enrollText">
+          <div className="enrollText" data-aos="zoom-in">
             <p className="text-white text-6xl">IMPROVE YOUR SKILL NOW!</p>
             <p className="text-white text-2xl">Enjoy Your Gaming Experience More</p>
             <button className="join">Join Now</button>
           </div>
-          <div className="enrollImg">
+          <div className="enrollImg" data-aos="zoom-out">
             <img src={styrda2} alt="img"></img>
           </div>
         </div>
