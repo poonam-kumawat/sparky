@@ -4,7 +4,19 @@
     background-image: url('../../../public/assets/svg/volarant.svg');
     background-repeat: no-repeat;
     background-size: cover;
+   
     height: 580px;
+}
+.section_4{
+  background: url('../../../src/assets/svg/Home5.svg')  100% no-repeat fixed;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* height: 580px; */
+    position: relative;
+}
+
+.section_5,.section_3{
+  position: relative;
 }
 .btnDownload{
     
