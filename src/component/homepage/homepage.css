@@ -86,18 +86,15 @@
   
 }
 .liveStreamImg{
-  position: absolute;
-  top: 0;
-  top: 10px;
-  right: 20px;
+  margin: 0 auto;
 }
-.liveImg{
+/* .liveImg{
   background-color: #14c2a3;
   border-radius: 50%;
   padding: 85px;
   margin: 0px 60px;
   position: relative;
-}
+} */
 .works{
   border-radius: 33px;
   border: 1px solid #B5F1EE;
@@ -132,6 +129,11 @@
   display: flex;
   
   
+}
+.ourTeam{
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  padding: 50px 0px;
 }
 
 @media  (max-width:991px) {

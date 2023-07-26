@@ -40,7 +40,7 @@ const Homepage = () => {
         <div className="container lg:grid grid-cols-2 lg:mx-5">
           <div className="leftWrap pt-20 pb-18" data-aos="fade-right">
             <h1 className="text-white md:pt-10 md:text-left  text-5xl md:text-6xl">
-              Sparky:The Ultimate Game{" "}
+              Sparky:The Ultimate Game
             </h1>
             <h1 className="text-white pt-10 text-left text-xl">
               Immerse yourself in thrilling team-based battles with Sparky game.
@@ -53,7 +53,7 @@ const Homepage = () => {
               </button>
             </div>
           </div>
-          <div className="rightWrap hidden lg:block absolute right-0 pt-16">
+          <div className="rightWrap hidden lg:block absolute right-0 pt-16" data-aos="zoom-in">
             <img src="/assets/svg/styrda.svg" alt="img"></img>
           </div>
         </div>
@@ -67,7 +67,7 @@ const Homepage = () => {
             YOU ARE MOST WELCOME IN GAMING WORLD.
           </h1>
           <div className="md:grid md:grid-cols-3 md:pt-5" data-aos="zoom-in">
-            <div className="gameIntro p-8 mx-3 my-3 md:my-0  ">
+            <div className="gameIntro p-8 mx-3 my-3 md:my-0  " data-aos="fade-right">
               <div className="liveImg">
                 <img src={live} alt="img" className="liveStreamImg"></img>
               </div>
@@ -79,7 +79,7 @@ const Homepage = () => {
                 specimen book centuries,
               </p>
             </div>
-            <div className="gameIntro p-8 mx-3 my-3 md:my-0 ">
+            <div className="gameIntro p-8 mx-3 my-3 md:my-0 " data-aos="fade-right">
               <div className="liveImg">
                 <img src={gameNews} alt="img" className="liveStreamImg"></img>
               </div>
@@ -91,7 +91,7 @@ const Homepage = () => {
                 specimen book centuries,
               </p>
             </div>
-            <div className="gameIntro p-8 mx-3 my-3 md:my-0 ">
+            <div className="gameIntro p-8 mx-3 my-3 md:my-0 " data-aos="fade-right">
               <div className="liveImg">
                 <img src={tour} alt="img" className="liveStreamImg"></img>
               </div>
@@ -147,10 +147,10 @@ const Homepage = () => {
       <div className="section_4">
         <div className="container pt-10 pb-10">
           <div className="md:p-20">
-            <h1 className="text-4xl md:text-6xl text-center text-white pb-10">
+            <h1 className="text-4xl md:text-6xl text-center text-white pb-10" data-aos="fade-up">
               REALISTIC BATTLE
             </h1>
-            <p className=" text-xl md:text-2xl text-center text-white">
+            <p className=" text-xl md:text-2xl text-center text-white" data-aos="zoom-in">
               Eleifend sem ipsum conubia euismod potenti ante ad sem sed,
               dictumst hymenaeos torquent quis. Class leo. Odio orci velit nulla
               habitasse conubia tempor eleifend dui suscipit mauris eget mollis
@@ -160,20 +160,20 @@ const Homepage = () => {
       </div>
       <div className="section_5">
       <div className="container pt-10 pb-10">
-        <div className="md:grid md:grid-cols-3 gap-3">
+        <div className="md:grid md:grid-cols-3 gap-3 ourTeam" data-aos="fade-up">
           <div className="col-span-1 row-span-1">
-          <h3 className="text-4xl text-[#14C2A3]">CREATIVE </h3>
+          <h3 className="text-4xl text-center md:text-start text-[#14C2A3]" data-aos="fade-up">CREATIVE</h3>
 
-          <p className="text-3xl text-white ">Our Team</p>
-          <p className="text-2xl text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed quam congue, porttitor erat rhoncus, tristique mi. Sed sed ultricies odio. Curabitur maximus rutrum tellus, eu vehicula sapien rutrum id. </p>
+          <p className="text-3xl text-center md:text-start text-white " data-aos="fade-up">Our Team</p>
+          <p className="text-1xl md:text-2xl text-center md:text-start text-white" data-aos="zoom-in">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed quam congue, porttitor erat rhoncus, tristique mi. Sed sed ultricies odio. Curabitur maximus rutrum tellus, eu vehicula sapien rutrum id. </p>
 
           </div>
           <div className="row-span-2 col-span-2">
-          <div className="border-3 border-[#14C2A3] rounded teamWrap">
+          <div className="border-3 border-[#14C2A3] rounded teamWrap" data-aos="zoom-in">
             <div className="team">
             <div className="border-2 border-[#14C2A3] p-2 m-2 bg-[#061436]">
               <img src={member1} alt="img" className="m-auto w-48 "/>
-              <div className="social flex justify-between mx-4 my-2">
+              <div className="social flex justify-around mx-4 my-2">
               <img src={facebook} alt="img" className=""/>
               <img src={twitter} alt="img" className=""/>
               <img src={instagram} alt="img" className=""/>
@@ -181,7 +181,7 @@ const Homepage = () => {
             </div>
             <div className="border-2 border-[#14C2A3] p-2 m-2 bg-[#061436]">
               <img src={member2} alt="img" className="m-auto w-48 "/>
-              <div className="social flex justify-between mx-4 my-2">
+              <div className="social flex justify-around mx-4 my-2">
               <img src={facebook} alt="img" className=""/>
               <img src={twitter} alt="img" className=""/>
               <img src={instagram} alt="img" className=""/>
@@ -189,7 +189,7 @@ const Homepage = () => {
             </div>
             <div className="border-2 border-[#14C2A3] p-2 m-2 bg-[#061436]">
               <img src={member3} alt="img" className="m-auto w-48 "/>
-              <div className="social flex justify-between mx-4 my-2">
+              <div className="social flex justify-around mx-4 my-2">
               <img src={facebook} alt="img" className=""/>
               <img src={twitter} alt="img" className=""/>
               <img src={instagram} alt="img" className=""/>
