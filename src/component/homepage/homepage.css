@@ -122,3 +122,22 @@
   font-size: 20px;
   margin-top: 20px;
 }
+.teamWrap{
+  background: linear-gradient(138deg, rgba(65, 219, 210, 0.08) 42.19%, rgba(3, 41, 35, 0.08) 100%);
+ box-shadow: 0px 2px 8px 10px rgba(19, 30, 28, 0.95);
+ padding: 20px;
+
+}
+.team{
+  display: flex;
+  
+  
+}
+
+@media  (max-width:991px) {
+  .team{
+    display: block;  
+    
+  }
+  
+}

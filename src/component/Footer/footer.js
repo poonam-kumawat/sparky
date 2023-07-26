@@ -13,7 +13,7 @@ import line from './../../assets/svg/Line.svg';
 const Footer=()=>{
 return(
     <div className="footerWrap">
-        <div className="container  pt-2 lg:pt-20">
+        <div className="container  pt-20">
         <div className="lg:grid lg:grid-cols-2">
             <div className="pb-4">
                 <img src={footerLogo} alt="img"></img>
@@ -35,7 +35,7 @@ return(
                 </div>
             </div>
         </div>
-        <div className="pt-5 pb-5 lg:pt-20 lg:pb-20">
+        <div className="pt-20 pb-20">
         <img src={line} alt="img"></img>
         </div>
         <div className="lg:float-right pb-2">

@@ -9,12 +9,18 @@ import "./homepage.css";
 import styrda2 from "./../../assets/svg/styrda2.svg";
 // import giphy from "./../../assets/svg/giphy.svg";
 // import doubleAroww from "./../../assets/svg/doubleArrow.svg";
+import member1 from "./../../assets/svg/teamplayer/member1.svg";
+import member2 from "./../../assets/svg/teamplayer/member2.svg";
+import member3 from "./../../assets/svg/teamplayer/member3.svg";
 import live from "./../../assets/svg/liveStream.svg";
 import gameNews from "./../../assets/svg/gameNews.svg";
 import tour from "./../../assets/svg/Tournament.svg";
 import drawer from "./../../assets/svg/drawer_svgrepo.com.svg";
 import vector from "./../../assets/svg/Vector.svg";
 import fire from "./../../assets/svg/fire-2_svgrepo.com.svg";
+import facebook from './../../assets/svg/Facebook.svg';
+import twitter from './../../assets/svg/Twitter.svg';
+import instagram from './../../assets/svg/Instagram.svg';
 
 const Homepage = () => {
   useEffect(() => {
@@ -153,7 +159,55 @@ const Homepage = () => {
         </div>
       </div>
       <div className="section_5">
-        <div className="container pt-10 pb-10">
+      <div className="container pt-10 pb-10">
+        <div className="md:grid md:grid-cols-3 gap-3">
+          <div className="col-span-1 row-span-1">
+          <h3 className="text-4xl text-[#14C2A3]">CREATIVE </h3>
+
+          <p className="text-3xl text-white ">Our Team</p>
+          <p className="text-2xl text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed quam congue, porttitor erat rhoncus, tristique mi. Sed sed ultricies odio. Curabitur maximus rutrum tellus, eu vehicula sapien rutrum id. </p>
+
+          </div>
+          <div className="row-span-2 col-span-2">
+          <div className="border-3 border-[#14C2A3] rounded teamWrap">
+            <div className="team">
+            <div className="border-2 border-[#14C2A3] p-2 m-2 bg-[#061436]">
+              <img src={member1} alt="img" className="m-auto w-48 "/>
+              <div className="social flex justify-between mx-4 my-2">
+              <img src={facebook} alt="img" className=""/>
+              <img src={twitter} alt="img" className=""/>
+              <img src={instagram} alt="img" className=""/>
+              </div>
+            </div>
+            <div className="border-2 border-[#14C2A3] p-2 m-2 bg-[#061436]">
+              <img src={member2} alt="img" className="m-auto w-48 "/>
+              <div className="social flex justify-between mx-4 my-2">
+              <img src={facebook} alt="img" className=""/>
+              <img src={twitter} alt="img" className=""/>
+              <img src={instagram} alt="img" className=""/>
+              </div>
+            </div>
+            <div className="border-2 border-[#14C2A3] p-2 m-2 bg-[#061436]">
+              <img src={member3} alt="img" className="m-auto w-48 "/>
+              <div className="social flex justify-between mx-4 my-2">
+              <img src={facebook} alt="img" className=""/>
+              <img src={twitter} alt="img" className=""/>
+              <img src={instagram} alt="img" className=""/>
+              </div>
+            </div>
+            </div>
+            
+
+            
+          </div>
+
+          </div>
+        </div>
+      </div>
+        
+      </div>
+      <div className="section_6">
+<div className="container pt-10 pb-10">
           <div className="enroll" data-aos="fade-up">
             <div className="md:grid md:grid-cols-2">
               <div className="enrollText text-center md:text-start" data-aos="zoom-in">

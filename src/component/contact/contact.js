@@ -13,7 +13,7 @@ const Contact=()=>{
         <div className="py-5 px-12">
         <div className="contactBg">
         <div className="heading">
-            <h1 className="text-white text-center text-4xl md:text-6xl pt-10">Contact Us</h1>
+            <h1 className="text-white text-center text-4xl md:text-6xl pt-5">Contact Us</h1>
             <img src={Hline} alt="img" className="m-auto mb-3"></img>
 
         </div>

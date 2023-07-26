@@ -2,6 +2,7 @@
     background-image: url('../../assets/svg/footerImage.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 490px;
+    height: auto;
+    padding: 20px ;
     
 }
