@@ -14,8 +14,14 @@
     .footerContent{
         padding-top:10px;
     }
+    .footerLogo{
+        margin: 0 auto;
+    }
     .upper-footer{
         padding-bottom: 20px;
+    }
+    .textFooter{
+        text-align: center;
     }
     .rightReserved{
         padding-bottom: 40px;

@@ -16,27 +16,27 @@ const Footer = () => {
       <div className="container footerContent">
         <div className="lg:grid lg:grid-cols-2 upper-footer">
           <div className="pb-4">
-            <img src={footerLogo} alt="img"></img>
+            <img src={footerLogo} alt="img" className="footerLogo"></img>
           </div>
-          <div className="grid grid-cols-2 lg:grid lg:grid-cols-2 ">
+          <div className="lg:grid lg:grid-cols-2 textFooter">
             <div className="">
-              <p className="text-white text-1xl underline lg:text-center">
+              <p className="text-white text-xl underline lg:text-center">
                 About us
               </p>
-              <p className="text-white text-1xl underline lg:text-center">
+              <p className="text-white text-xl underline lg:text-center">
                 Follow us
               </p>
-              <div className="flex justify-between   lg:justify-evenly">
+              <div className="flex  justify-evenly md:justify-between   lg:justify-evenly">
                 <img src={facebook} alt="img" className="w-8"></img>
                 <img src={twitter} alt="img" className="w-8"></img>
                 <img src={instagram} alt="img" className="w-8"></img>
               </div>
             </div>
             <div className="">
-              <p className="text-white text-1xl underline lg:text-center">
+              <p className="text-white text-xl underline lg:text-center">
                 Contact us
               </p>
-              <p className="text-white text-1xl  flex lg:justify-center">
+              <p className="text-white text-xl  flex justify-center">
                 <img src={phone} alt="img" className="w-9 pr-4"></img>+91
                 923456123
               </p>
@@ -52,13 +52,13 @@ const Footer = () => {
         </div>
         <div className="lg:float-right pb-2">
           <div className="flex justify-between">
-            <p className="text-white text-xl pr-5">FAQ</p>
-            <p className="text-white text-xl pr-5">Privacy</p>
-            <p className="text-white text-xl">Terms and Service</p>
+            <p className="text-white text-1xl md:text-xl pr-5">FAQ</p>
+            <p className="text-white text-1xl md:text-xl pr-5">Privacy</p>
+            <p className="text-white text-1xl md:text-xl">Terms and Service</p>
           </div>
         </div>
         <div className="text-center lg:pt-20 rightReserved">
-          <p className="text-white text-xl">
+          <p className="text-white text-1xl md:text-xl">
             2023 © Sparky.Ltd | All Right Reserved
           </p>
         </div>
