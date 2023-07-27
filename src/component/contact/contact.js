@@ -11,13 +11,11 @@ const Contact = () => {
     <div className="contPage">
       <div className="py-5 px-12 contact-content">
         <div className="contactBg">
-        <div className="heading">
-            <h1 className="text-white text-center text-4xl md:text-6xl pt-5">Contact Us</h1>
+          <div className="heading">
+            <h1 className="text-white text-center text-4xl md:text-6xl pt-5">
+              Contact Us
+            </h1>
             <img src={Hline} alt="img" className="m-auto mb-3"></img>
-          </div>
-          <div className="info">
-            <div className="md:flex justify-between p-7">
-              <div className="phone grid">
           </div>
           <div className="info">
             <div className="md:flex justify-between p-7">
@@ -60,15 +58,9 @@ const Contact = () => {
           <div className="contactImg hidden xl:block">
             <img src={character} alt="img"></img>
           </div>
-          </div>
         </div>
       </div>
     </div>
   );
 };
-      </div>
-    </div>
-  );
-};
 export default Contact;
-
