@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./home.css";
 import { Outlet, Link } from "react-router-dom";
 
@@ -14,6 +14,7 @@ const Header = () => {
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
   };
+
   return (
     <div className="headerWrap">
       <div className="header">
@@ -25,8 +26,8 @@ const Header = () => {
             <img src={hamburger} alt="hamburger" className="w-20 h-20" />
           </div>
           <div className={`nav-menu  ${showNavbar && "active"}`}>
-            <ul className="content-menu">
-              <div className="Mobmenu-icon" onClick={handleShowNavbar}>
+            <ul className="content-menu" onClick={handleShowNavbar}>
+              <div className="Mobmenu-icon">
                 <img
                   src={close}
                   alt="close"
@@ -34,13 +35,13 @@ const Header = () => {
                 />
               </div>
               <li>
-              <Link to="/">HOME.</Link>
+                <Link to="/">HOME.</Link>
               </li>
               <li>
-              <Link to="/contact">ABOUT US.</Link>
+                <Link to="/aboutus">ABOUT US.</Link>
               </li>
               <li>
-              <Link to="/contact">CONTACT.</Link>
+                <Link to="/contact">CONTACT.</Link>
               </li>
               <li>
                 <div className="content-btn">
@@ -63,7 +64,6 @@ const Header = () => {
         </nav>
         <Outlet />
       </div>
-      
     </div>
   );
 };
