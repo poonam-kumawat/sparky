@@ -184,20 +184,20 @@ const Homepage = () => {
           >
             <div className="col-span-1 row-span-1">
               <h3
-                className="text-4xl text-center md:text-start text-[#14C2A3]"
+                className="text-4xl teamText text-left text-[#14C2A3]"
                 data-aos="fade-up"
               >
                 CREATIVE
               </h3>
 
               <p
-                className="text-3xl text-center md:text-start text-white "
+                className="text-3xl teamText text-left text-white "
                 data-aos="fade-up"
               >
                 Our Team
               </p>
               <p
-                className="text-1xl md:text-2xl text-center md:text-start text-white"
+                className="text-xl md:text-2xl text-left text-white our-team"
                 data-aos="zoom-in"
               >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.

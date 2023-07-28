@@ -57,12 +57,16 @@
     text-transform: uppercase;
     /* transition: all .3s ease; */
     background:#14c2a3;
+    cursor: pointer;
 }
 .btnlogin:hover{
-    background: transparent;
-    border: 1px solid #fff;
-    /* transform: scale(.97) rotate(-1deg); */
+    box-shadow: 0 0 32px 0 rgba(34,183,143,.5);
+    background: #174A67;
+    
 }
+   
+   
+
 
 
 
