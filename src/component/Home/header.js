@@ -1,4 +1,4 @@
-import React, {useState } from "react";
+import React, { useState } from "react";
 import "./home.css";
 import { Outlet, Link } from "react-router-dom";
 
@@ -7,16 +7,26 @@ import logo from "./../../assets/svg/logo.svg";
 import hamburger from "./../../assets/svg/hamburger.svg";
 import close from "./../../assets/svg/close.svg";
 import mobMenuImage from "./../../assets/svg/mobMenuImage.svg";
+import { useRef } from "react";
 
 const Header = () => {
   const [showNavbar, setShowNavbar] = useState(false);
+  const headerRef = useRef(null);
 
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
   };
 
+  const handleClickOutside = () => {
+    setShowNavbar(false);
+  };
+
   return (
-    <div className="headerWrap">
+    <div
+      className="headerWrap"
+      onMouseLeave={handleClickOutside}
+      ref={headerRef}
+    >
       <div className="header">
         <nav className="Nav-bar">
           <div className="header-content">
