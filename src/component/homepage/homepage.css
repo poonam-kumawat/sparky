@@ -141,6 +141,13 @@
     display: block;  
     
   }
+  .our-team{
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .teamText{
+    text-align: center;
+  }
   
   
 }
