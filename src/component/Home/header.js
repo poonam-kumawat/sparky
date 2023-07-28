@@ -15,6 +15,7 @@ const Header = () => {
 
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
+    if (showNavbar) document.body.className = "freeze";
   };
 
   const handleClickOutside = () => {
