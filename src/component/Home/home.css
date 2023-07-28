@@ -136,7 +136,6 @@
     margin-top: 22px;
   }
   .freeze {
-    /* position: "sticky"; */
     overflow: hidden;
     height: 800px;
   }

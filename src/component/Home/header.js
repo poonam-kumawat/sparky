@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./home.css";
 import { Outlet, Link } from "react-router-dom";
 
@@ -15,12 +15,16 @@ const Header = () => {
 
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
-    if (showNavbar) document.body.className = "freeze";
   };
 
   const handleClickOutside = () => {
     setShowNavbar(false);
   };
+
+  useEffect(() => {
+    if (showNavbar) document.body.className = "freeze";
+    else document.body.className = "";
+  }, [showNavbar]);
 
   return (
     <div
