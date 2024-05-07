@@ -1,6 +1,153 @@
-/* .content-home{
-    background-image: url('../../../public/assets/svg/galaxy.svg');
+
+
+.content-home{
+    background-image: url('../../../public/assets/svg/volarant.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+   
+    height: 580px;
+}
+.section_4{
+  background: url('../../../src/assets/svg/Home5.svg')  100% no-repeat fixed;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* height: 580px; */
+    position: relative;
+}
+
+.section_5,.section_3{
+  position: relative;
+}
+.btnDownload{
+    
+    text-transform: uppercase;
+    transition: all .3s ease;
+    /* background:#14c2a3; */
+    border: 3px solid #14c2a3;
+    position: relative;
+
+}
+
+.btnDownload:hover{
+    border: 3px solid #fff;
+    transition-duration: .3s;
+}
+.video{
+    margin: 0 auto;
+    overflow: hidden;
+    width: 70%;
+}
+.zooming{
+    animation: both;
+    -webkit-animation: zoom 10s ease 0s infinite normal both;
+}
+.memberImg{
+  
+  margin-bottom: 40px;
+  
+  text-align: center;
+  
+  padding: 0px 20px;
+}
+.memberImg a > img {
+  border: 2px solid #282931;
+  border-radius: 50%;
+  transition: .3s linear;
+  display: inline-block;
+  position: relative;
+  /* width: 100px; */
+}
+
+.memberImg a::before {
+  content: "\f0c1";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  font-size: 40px;
+  opacity: 0;
+  color: #14c2a3;
+  transition: .3s linear;
+
+}
+
+.memberImg a > img:hover{
+  border-radius: 50%;
+  border: 2px solid #14c2a3;
+  color: #14c2a3;
+    text-decoration: none;
+}
+
+.gameIntro{
+  border:2px solid #14c2a3;
+  /* box-shadow: 2px #282931; */
+  
+}
+.liveStreamImg{
+  margin: 0 auto;
+}
+/* .liveImg{
+  background-color: #14c2a3;
+  border-radius: 50%;
+  padding: 85px;
+  margin: 0px 60px;
+  position: relative;
 } */
+.works{
+  border-radius: 33px;
+  border: 1px solid #B5F1EE;
+  background: linear-gradient(173deg, rgba(17, 40, 61, 0.95) 20.31%, rgba(17, 40, 61, 0.00) 99.14%);
+  padding: 50px 30px;
+}
+.enroll{
+  background-color: #24AC94;
+  border-radius: 30px;
+  /* padding: 50px 30px; */
+
+}
+.enrollText{
+  padding: 50px 30px;
+  margin: auto;
+}
+.join{
+  background-color: #174A67;
+  color: white;
+  border:2px solid white;
+  padding: 10px 40px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.teamWrap{
+  background: linear-gradient(138deg, rgba(65, 219, 210, 0.08) 42.19%, rgba(3, 41, 35, 0.08) 100%);
+ box-shadow: 0px 2px 8px 10px rgba(19, 30, 28, 0.95);
+ padding: 20px;
+
+}
+.team{
+  display: flex;
+  
+  
+}
+.ourTeam{
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  padding: 50px 0px;
+}
+
+@media  (max-width:991px) {
+  .team{
+    display: block;  
+    
+  }
+  .our-team{
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .teamText{
+    text-align: center;
+  }
+  
+  
+}

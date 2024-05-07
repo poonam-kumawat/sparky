@@ -1,0 +1,30 @@
+.footerWrap{
+    background-image: url('../../assets/svg/footerImage.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 20px ;
+    
+}
+.footerContent{
+    padding-top: 50px;
+}
+
+@media screen and (max-width:991px) {
+    .footerContent{
+        padding-top:10px;
+    }
+    .footerLogo{
+        margin: 0 auto;
+    }
+    .upper-footer{
+        padding-bottom: 20px;
+    }
+    .textFooter{
+        text-align: center;
+    }
+    .rightReserved{
+        padding-bottom: 40px;
+    }
+    
+}
